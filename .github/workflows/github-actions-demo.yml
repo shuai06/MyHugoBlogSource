@@ -1,0 +1,27 @@
+name: Auto Deploy hugo
+on: [push]
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v2
+	with:
+          submodules: recursive  
+          fetch-depth: 0    
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: latest
+      - name: Build 
+        run: hugo
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }} #
+          external_repository: shuai06/shuai06.github.io  
+          publish_branch: main  
+          publish_dir: ./public 
+          commit_message: ${{ github.event.head_commit.message }}
+
+
