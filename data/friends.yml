@@ -1,0 +1,44 @@
+# 📌 Sticky author site in https://fixit.lruihao.cn
+# -------------------------------------------------------------------------------------
+# Single Friend Link Information
+# 单个友情链接信息
+# -------------------------------------------------------------------------------------
+# - nickname: friend's name 朋友名字
+#   avatar: friend's avatar 朋友头像
+#   url: site link 站点链接
+#   description: description of friend/site 对朋友或其站点的说明
+# -------------------------------------------------------------------------------------
+# -------------------------------------------------------------------------------------
+# Add your FixIt site to the list in `nickname` lexicographical order
+# 按 `nickname` 以字典顺序将您的 FixIt 网站添加到列表中
+# -------------------------------------------------------------------------------------
+
+- nickname: 兰铃
+  avatar: https://ayang.ink/images/avatar.jpg
+  url: https://muyuuuu.github.io/
+  description: 计算机巨佬，超膜拜的
+
+- nickname: WineMonk
+  avatar: https://img.shaoshao.net.cn/shaoshao_blog/_headportraits/shsh_cn.jpg
+  url: http://shaoshao.net.cn/
+  description: 亲学弟啊，技术大拿，必须得排面
+
+- nickname: X北辰北
+  avatar:  http://www.xbeichenbei.com/images/avatar.png
+  url: http://www.xbeichenbei.com/
+  description: GIS巨佬
+
+- nickname: 离别歌
+  avatar: https://www.leavesongs.com/static/cactus/images/favicon.ico
+  url: https://www.leavesongs.com/
+  description: P神
+
+- nickname: TeamsSix
+  avatar: https://teamssix.com/favicon.png
+  url: https://teamssix.com/
+  description: TeamsSix
+
+- nickname: 松鼠A的博客
+  avatar: https://www.sshuo.cc/images/logo.ico
+  url: https://www.sshuo.cc/
+  description: 松鼠A的博客

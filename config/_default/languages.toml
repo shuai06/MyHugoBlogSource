@@ -1,0 +1,106 @@
+# -------------------------------------------------------------------------------------
+# Multilingual and i18n | 多语言 i18n
+# See: https://gohugo.io/content-management/multilingual/#configure-languages
+# -------------------------------------------------------------------------------------
+
+[zh-cn]
+  weight = 2
+  languageCode = "zh-CN"
+  languageName = "简体中文"
+  hasCJKLanguage = true
+  copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+  [zh-cn.menu]
+    [[zh-cn.menu.main]]
+      identifier = "posts"
+      name = "所有文章"
+      url = "posts/"
+      weight = 1
+      [zh-cn.menu.main.params]
+        icon = "fa-solid fa-archive"
+    [[zh-cn.menu.main]]
+      identifier = "categories"
+      name = "分类"
+      url = "categories/"
+      weight = 2
+      [zh-cn.menu.main.params]
+        icon = "fa-solid fa-th"
+    [[zh-cn.menu.main]]
+      identifier = "tags"
+      name = "标签"
+      url = "tags/"
+      weight = 3
+      [zh-cn.menu.main.params]
+        icon = "fa-solid fa-tags"
+    [[zh-cn.menu.main]]
+      identifier = "friends"
+      name = "友链"
+      url = "friends/"
+      title = "友情链接"
+      weight = 6
+      [zh-cn.menu.main.params]
+        icon = "fa-solid fa-users"
+    [[zh-cn.menu.main]]
+      identifier = "about"
+      name = "关于"
+      url = "about/"
+      weight = 7
+      [zh-cn.menu.main.params]
+        icon = "fa-solid fa-info-circle"
+    [[zh-cn.menu.main]]
+      identifier = "github"
+      pre = "<i class='fa-brands fa-github fa-fw' aria-hidden='true'></i>"
+      url = "https://github.com/shuai06"
+      title = "GitHub"
+      weight = 8
+      [zh-cn.menu.main.params]
+        class = "text-center"
+        type = "mobile"
+  [zh-cn.params]
+    description = "剑胆琴心的技术博客"
+    [zh-cn.params.search]
+      enable = true
+      type = "lunr"
+      contentLength = 4000
+      placeholder = ""
+      maxResultLength = 10
+      snippetLength = 50
+      highlightTag = "em"
+      absoluteURL = false
+      [zh-cn.params.search.algolia]
+        index = "index.zh-cn"
+        appID = "YKOM6PKLUY"
+        searchKey = "a44c110d3ac360be2c69cd79d34b77a8"
+    [zh-cn.params.home]
+      rss = 10
+      [zh-cn.params.home.profile]
+        enable = true
+        gravatarEmail = ""
+        avatarURL = "images/avatar.png"
+        title = "剑胆琴心"
+        subtitle = "潜心学习，去成为你想成为的人"
+        typeit = true
+        social = true
+        disclaimer = ""
+      [zh-cn.params.home.posts]
+        enable = true
+        paginate = 6
+    [zh-cn.params.social]
+      GitHub = "shuai06"
+      Email = "xuepengshuai@gmail.com"
+      RSS = true
+    [zh-cn.params.pangu]
+      enable = true
+      selector = "article"
+    [zh-cn.params.watermark]
+      enable = true
+      content = '<img class="fixit-icon" src="/images/avatar.png" alt="FixIt logo" /> 剑胆琴心'
+      opacity = 0.0125
+      height = 21
+    [zh-cn.params.githubCorner]
+      enable = false
+      permalink = "http://github.com/shuai06"
+      title = "我的GitHub"
+      position = "right"
+    [zh-cn.params.gravatar]
+      host = ""
+      style = "mp"
