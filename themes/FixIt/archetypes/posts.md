@@ -2,7 +2,7 @@
 title: "{{ replace .TranslationBaseName "-" " " | title }}"
 subtitle: ""
 date: {{ .Date }}
-draft: true
+draft: false
 author: "剑胆琴心"
 description: ""
 comment: true
