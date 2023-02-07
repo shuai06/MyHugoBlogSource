@@ -1,16 +1,16 @@
 ---
-title: "{{ replace .TranslationBaseName "-" " " | title }}"
+title: "Burp插件推荐1"
 subtitle: ""
-date: {{ .Date }}
+date: 2023-02-07T10:54:38+08:00
 draft: true
 author: "剑胆琴心"
 description: ""
 comment: true
 
 tags:
-- draft
+- burpsuire
 categories:
-- draft
+- 渗透测试
 
 hiddenFromHomePage: false
 hiddenFromSearch: false
@@ -36,3 +36,5 @@ repost:
 ---
 
 <!--more-->
+
+666
