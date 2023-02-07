@@ -10,6 +10,7 @@ jobs:
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: latest
+          extended: true
       - name: Build 
         run: hugo
       - name: Deploy
@@ -19,6 +20,7 @@ jobs:
           external_repository: shuai06/shuai06.github.io  
           publish_branch: main  
           publish_dir: ./public 
+	  cname: geoer.cn
           commit_message: ${{ github.event.head_commit.message }}
 
 
