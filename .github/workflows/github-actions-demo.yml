@@ -20,7 +20,7 @@ jobs:
           external_repository: shuai06/shuai06.github.io  
           publish_branch: main  
           publish_dir: ./public 
-	  cname: geoer.cn
+          cname: geoer.cn
           commit_message: ${{ github.event.head_commit.message }}
 
 
