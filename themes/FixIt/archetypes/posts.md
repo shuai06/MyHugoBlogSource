@@ -3,14 +3,13 @@ title: "{{ replace .TranslationBaseName "-" " " | title }}"
 subtitle: ""
 date: {{ .Date }}
 draft: true
-author: ""
+author: "剑胆琴心"
 authorLink: ""
 authorEmail: ""
 description: ""
 keywords: ""
 license: ""
-comment: false
-weight: 0
+comment: true
 
 tags:
 - draft
