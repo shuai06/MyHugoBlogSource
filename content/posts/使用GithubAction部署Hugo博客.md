@@ -3,7 +3,7 @@ title: "使用GithubAction部署Hugo博客"
 subtitle: ""
 date: 2023-02-06T22:36:17+08:00
 draft: false
-
+author: "剑胆琴心"
 tags:
 - 博客
 - hugo
