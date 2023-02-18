@@ -7,7 +7,7 @@ tags:
 - 漏洞复现
 - xmind2020
 - XSS
-cover: 'http://image.xpshuai.cn/xmind2020.jpg'
+cover: 'http://image.geoer.cn/xmind2020.jpg'
 abbrlink: 45828
 date: 2021-05-11 09:53:59
 keywords:
@@ -47,7 +47,7 @@ cat.stdout.on("data", data => {
 });</script>
 ```
 
-![插入payload](http://image.xpshuai.cn/xmind_payload1.png)
+![插入payload](http://image.geoer.cn/xmind_payload1.png)
 
 
 
@@ -75,7 +75,7 @@ console.log(n);
 
 **2.点击大纲。在大纲模式下，选中payload，按下Ctrl+C快捷键触发该Payload，执行`calc`命令。**
 
-![执行成功](http://image.xpshuai.cn/xmind_attack_ok.png)
+![执行成功](http://image.geoer.cn/xmind_attack_ok.png)
 
 
 

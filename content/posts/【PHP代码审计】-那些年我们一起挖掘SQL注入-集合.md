@@ -8,7 +8,7 @@ tags:
 date: 2020-04-17 20:10:37
 keywords:
 description:
-cover: http://image.xpshuai.cn/timg.jpg
+cover: http://image.geoer.cn/timg.jpg
 ---
 
   

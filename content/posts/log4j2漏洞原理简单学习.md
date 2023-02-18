@@ -5,7 +5,7 @@ date: 2022-02-08 11:58:58
 tags: ["漏洞复现", "log4j2", "远程代码执行漏洞"]
 categories:
 - 渗透测试
-cover: http://image.xpshuai.cn/log444.png
+cover: http://image.geoer.cn/log444.png
 top_img:
 description:
 ---
@@ -48,7 +48,7 @@ description:
 
 
 
-![lookup](http://image.xpshuai.cn/jndi_lookup.png)
+![lookup](http://image.geoer.cn/jndi_lookup.png)
 
 
 
@@ -267,7 +267,7 @@ public class Log4Test {
 
 ### 3.打开dnslog，发现成功获取ip
 
-![](http://image.xpshuai.cn/log4_dnslog.png)
+![](http://image.geoer.cn/log4_dnslog.png)
 
 
 
@@ -376,7 +376,7 @@ public class Log4Test {
 
 成功执行：
 
-![](http://image.xpshuai.cn/wiershark_ok)
+![](http://image.geoer.cn/wiershark_ok)
 
 
 

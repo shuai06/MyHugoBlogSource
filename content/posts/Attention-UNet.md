@@ -6,7 +6,7 @@ date: 2022-10-10 10:33:04
 tags: ["注意力机制", "UNet"]
 categories:
 - AI
-cover: http://image.xpshuai.cn/20221010103417.png
+cover: http://image.geoer.cn/20221010103417.png
 top_img:
 description:
 ---
@@ -23,7 +23,7 @@ attention模块用在了skip connection上，原始U-Net只是单纯的把同层
 
 ## 网络架构
 下图即其网络架构，其中红色的部分就是`注意力block`
-![](http://image.xpshuai.cn/20221010103858.png)
+![](http://image.geoer.cn/20221010103858.png)
 
 与标准UNet整体结构相似，不同的是在红框内增加了attention gate。
 在decoder时候，从encoder提取的部分进行了attention gate再进行decoder。
@@ -38,9 +38,9 @@ attention模块用在了skip connection上，原始U-Net只是单纯的把同层
 
 
 **下面看一下attention gated:**
-![](http://image.xpshuai.cn/20221010104402.png)
+![](http://image.geoer.cn/20221010104402.png)
 对应前面整体网络结构中的：
-![](http://image.xpshuai.cn/20221010104427.png)
+![](http://image.geoer.cn/20221010104427.png)
 
 
 **attention gate的过程：**

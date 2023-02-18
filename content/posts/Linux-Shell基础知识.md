@@ -6,7 +6,7 @@ categories:
 - Linux
 description: shell脚本的一些基本知识
 comments: true
-cover: http://image.xpshuai.cn/title.jpg
+cover: http://image.geoer.cn/title.jpg
 ---
 
 
@@ -2027,7 +2027,7 @@ x{m,n}			字符x重复m到n次				o{5,10}
 
 带括号与不带括号：
 
-<img src="http://image.xpshuai.cn/带括号与不带括号.png"></img>
+<img src="http://image.geoer.cn/带括号与不带括号.png"></img>
 
 正则匹配实例：vim中查找替换
 
@@ -2452,7 +2452,7 @@ df -P |grep '/' |awk '$4'>25000 {print $4}    # 除去第一行，如果大于25
 
 **awk工作原理**
 
-<img src="http://image.xpshuai.cn/awk工作原理.png"></img>
+<img src="http://image.geoer.cn/awk工作原理.png"></img>
 
 **记录与字段相关的`内部变量`**
 
