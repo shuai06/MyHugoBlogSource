@@ -110,7 +110,7 @@ openssl ciphers -v 'NULL,EXPORT,LOW,DES'
 # 参考网站（加密技术）
 https://www.openssl.org/docs/apps/ciphers.html
 ```
-![](http://image.geoer.cn/HTTPS%E6%94%BB%E5%87%BB_1.png)
+![](https://image.geoer.cn/HTTPS%E6%94%BB%E5%87%BB_1.png)
 
 Openssl需要大量密码学相关知识，命令复杂，结果可读性差
 
@@ -192,7 +192,7 @@ https://www.ssllabs.com/ssltest
 
 加密流量
 
-![](http://image.geoer.cn/HTTPS%E6%94%BB%E5%87%BB_2.png)
+![](https://image.geoer.cn/HTTPS%E6%94%BB%E5%87%BB_2.png)
 
 
 
@@ -399,7 +399,7 @@ Asynchronous JavaScript and XML
 **基于Ajax的Web应用工作流程**
 
 
-![](http://image.geoer.cn/HTTPS%E6%94%BB%E5%87%BB_3.png)
+![](https://image.geoer.cn/HTTPS%E6%94%BB%E5%87%BB_3.png)
 
 > 使用的技术混合越多，攻击面就越大(每个参数都可能形成独立的攻击过程)
 

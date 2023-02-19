@@ -6,14 +6,14 @@ date: 2022-09-15 16:34:54
 tags: ["VGG", "CNN"]
 categories:
 - AI
-cover: http://image.geoer.cn/20220915190047.png
+cover: https://image.geoer.cn/20220915190047.png
 top_img:
 description:
 ---
 <script type="text/javascript" src="/js/src/bai.js"></script>
 
 VGG:更大更深、VGG块
-![VGG](http://image.geoer.cn/20220915190047.png)
+![VGG](https://image.geoer.cn/20220915190047.png)
 
 
 
@@ -24,7 +24,7 @@ VGG:更大更深、VGG块
 
 
 VGG架构：
-![](http://image.geoer.cn/20220915190502.png)
+![](https://image.geoer.cn/20220915190502.png)
 
 
 

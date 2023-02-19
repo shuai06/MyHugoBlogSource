@@ -6,7 +6,7 @@ categories:
 tags:
 - Java学习
 - 异常处理
-cover: http://image.geoer.cn/java_try_catch.png
+cover: https://image.geoer.cn/java_try_catch.png
 abbrlink: 39908
 date: 2021-01-15 21:02:03
 keywords:

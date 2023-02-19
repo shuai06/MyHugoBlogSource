@@ -7,7 +7,7 @@ tags:
 - 文件上传
 abbrlink: 3890b03c
 date: 2020-02-17 18:08:02
-cover: http://image.geoer.cn/20200218195326654_1642698147.png
+cover: https://image.geoer.cn/20200218195326654_1642698147.png
 ---
 
 
@@ -26,7 +26,7 @@ cover: http://image.geoer.cn/20200218195326654_1642698147.png
 
 \- 因为比较菜，所以做题直接看代码了就(谁料有的题目看了代码都看不懂)，哈哈哈。
 
-<img src="http://image.geoer.cn/20200218195326654_1642698147.png" />
+<img src="https://image.geoer.cn/20200218195326654_1642698147.png" />
 
 ## 相关函数
 
@@ -110,11 +110,11 @@ F12查看代码后确认
 
 禁用js，直接上传php
 
-<img src="http://image.geoer.cn/20200217215459803_1606358356.png" />
+<img src="https://image.geoer.cn/20200217215459803_1606358356.png" />
 
 成功：
 
-<img src="http://image.geoer.cn/20200217215605878_1982942629.png" />
+<img src="https://image.geoer.cn/20200217215605878_1982942629.png" />
 
 
 
@@ -142,7 +142,7 @@ F12查看代码后确认
 
 只检测文件自带的类型
 
-<img src="http://image.geoer.cn/20200217215941532_643347454.png" />
+<img src="https://image.geoer.cn/20200217215941532_643347454.png" />
 
 
 
@@ -152,7 +152,7 @@ F12查看代码后确认
 
 burp修改数据包中修改MIME类型（Content-Type）为允许的类型
 
-<img src="http://image.geoer.cn/20200217220124560_567357512.png" />
+<img src="https://image.geoer.cn/20200217220124560_567357512.png" />
 
 
 
@@ -170,7 +170,7 @@ burp修改数据包中修改MIME类型（Content-Type）为允许的类型
 
 对上传的文件先过滤，后判断文件后缀，再随机命名
 
-<img src="http://image.geoer.cn/20200217220446232_1542284348.png" />
+<img src="https://image.geoer.cn/20200217220446232_1542284348.png" />
 
 
 
@@ -234,7 +234,7 @@ burp拦截数据包，修改filename为`php3`,上传成功
 
 上传图片马，然后利用BP拦截，将后缀名 `改为phtml,php3,php4,php5,pht`
 
-<img src="http://image.geoer.cn/20200218144512768_1843220897.png" />
+<img src="https://image.geoer.cn/20200218144512768_1843220897.png" />
 
 
 
@@ -250,7 +250,7 @@ burp拦截数据包，修改filename为`php3`,上传成功
 
 
 
-<img src="http://image.geoer.cn/20200217222608134_260661208.png" />
+<img src="https://image.geoer.cn/20200217222608134_260661208.png" />
 
 
 
@@ -290,7 +290,7 @@ SetHandler application/x-httpd-php
 
 ## Pass-05
 
-<img src="http://image.geoer.cn/20200217223711503_294591319.png" />
+<img src="https://image.geoer.cn/20200217223711503_294591319.png" />
 
 连.htaccess都放黑名单了
 
@@ -330,13 +330,13 @@ a.php.  .
 
 如下图，win服务器保存的文件：
 
-<img src="http://image.geoer.cn/20200217224221081_348766282.png" />
+<img src="https://image.geoer.cn/20200217224221081_348766282.png" />
 
 
 
 正常解析：
 
-<img src="http://image.geoer.cn/20200217224244474_173158029.png" />
+<img src="https://image.geoer.cn/20200217224244474_173158029.png" />
 
 
 
@@ -344,7 +344,7 @@ a.php.  .
 
 ##  Pass-06
 
-<img src="http://image.geoer.cn/20200218145809732_1096167348.png" />
+<img src="https://image.geoer.cn/20200218145809732_1096167348.png" />
 
 
 
@@ -360,7 +360,7 @@ burp修改filename后缀名为`.phP`，绕过检测，上传OK
 
 正常解析
 
-<img src="http://image.geoer.cn/20200218150044751_461792168.png" />
+<img src="https://image.geoer.cn/20200218150044751_461792168.png" />
 
 
 
@@ -370,7 +370,7 @@ burp修改filename后缀名为`.phP`，绕过检测，上传OK
 
 ## Pass-07
 
-<img src="http://image.geoer.cn/20200218150316897_1558000982.png" />
+<img src="https://image.geoer.cn/20200218150316897_1558000982.png" />
 
 
 
@@ -396,7 +396,7 @@ burp修改filename为`info.php `，后面加一个空格，上传
 
 ## Pass-08
 
-<img src="http://image.geoer.cn/20200218151055198_961499757.png" />
+<img src="https://image.geoer.cn/20200218151055198_961499757.png" />
 
 
 
@@ -448,7 +448,7 @@ a.php.
 
 
 
-<img src="http://image.geoer.cn/20200218152924608_961861669.png" />
+<img src="https://image.geoer.cn/20200218152924608_961861669.png" />
 
 
 
@@ -478,13 +478,13 @@ info.php::$DATA
 
 1.如图 ，在BP中修改图片马的 jpg 的后缀名，将其改为 php ，并且在后面加上 ::$DATA ;
 
-<img src="http://image.geoer.cn/20200218161807873_1645216989.png" />
+<img src="https://image.geoer.cn/20200218161807873_1645216989.png" />
 
 2.在网页上检查图片马的执行情况时，将图片马的后缀名中 ::$DATA ，删去，便可浏览。
 
 如图，这个是没有去掉后缀时，会发生报错。（因为我们实际上传的是PHP文件，即upload文件夹中只有php文件，而不存在带有后缀 ::$DATA的文件）
 
-<img src="http://image.geoer.cn/20200218162201913_251841335.png" />
+<img src="https://image.geoer.cn/20200218162201913_251841335.png" />
 
 
 
@@ -494,7 +494,7 @@ info.php::$DATA
 
 ## Pass-10
 
-<img src="http://image.geoer.cn/20200218163307924_285954321.png" />
+<img src="https://image.geoer.cn/20200218163307924_285954321.png" />
 
 
 
@@ -512,7 +512,7 @@ info.php::$DATA
 
 burp修改文件名`info.php. .`
 
-<img src="http://image.geoer.cn/20200218163126238_1032488863.png" />
+<img src="https://image.geoer.cn/20200218163126238_1032488863.png" />
 
 
 
@@ -528,7 +528,7 @@ burp修改文件名`info.php. .`
 
 没有strrchr
 
-<img src="http://image.geoer.cn/20200218163843491_1975433720.png" />
+<img src="https://image.geoer.cn/20200218163843491_1975433720.png" />
 
 
 
@@ -556,7 +556,7 @@ info.pphphp --- > 'info.php'
 
 
 
-<img src="http://image.geoer.cn/20200218163953790_921378631.png" />
+<img src="https://image.geoer.cn/20200218163953790_921378631.png" />
 
 
 
@@ -578,7 +578,7 @@ info.pphphp --- > 'info.php'
 
 **白名单绕过**
 
-)<img src="http://image.geoer.cn/20200218165050537_741059186.png" />
+)<img src="https://image.geoer.cn/20200218165050537_741059186.png" />
 
 save_path可控， `$_GET['save_path']` 通过get获取，可以把get中url参数带上00截断
 
@@ -610,7 +610,7 @@ URI中00截断
 
 由于是在get的url中，`%00`就不进行decode了，
 
-<img src="http://image.geoer.cn/20200218170335768_2032329037.png" />
+<img src="https://image.geoer.cn/20200218170335768_2032329037.png" />
 
 
 
@@ -618,17 +618,17 @@ URI中00截断
 
 查看图片路径：
 
-<img src="http://image.geoer.cn/20200218170644694_1142415094.png" />
+<img src="https://image.geoer.cn/20200218170644694_1142415094.png" />
 
 查看服务器保存文件：
 
-<img src="http://image.geoer.cn/20200218170437679_903547409.png" />
+<img src="https://image.geoer.cn/20200218170437679_903547409.png" />
 
 
 
 访问的时候，去掉后面的jpg，只访问php，OK：
 
-<img src="http://image.geoer.cn/20200218170513646_522012281.png" />
+<img src="https://image.geoer.cn/20200218170513646_522012281.png" />
 
 
 
@@ -642,7 +642,7 @@ URI中00截断
 
 ps:图片是盗取的
 
-<img src="http://image.geoer.cn/20200218170957259_1424254637.png" />
+<img src="https://image.geoer.cn/20200218170957259_1424254637.png" />
 
 
 
@@ -662,7 +662,7 @@ burp只修改下面的filename为`x.jpg`即可
 
 **白名单绕过**
 
-<img src="http://image.geoer.cn/20200218165118835_726563878.png" />
+<img src="https://image.geoer.cn/20200218165118835_726563878.png" />
 
 
 
@@ -674,7 +674,7 @@ burp只修改下面的filename为`x.jpg`即可
 
 **1.**burp拦截。在post后面加上`info.php%00` (%00是url decode之后的)，再发送即可
 
-<img src="http://image.geoer.cn/20200218172018042_1656668337.png" />
+<img src="https://image.geoer.cn/20200218172018042_1656668337.png" />
 
 
 
@@ -682,13 +682,13 @@ burp只修改下面的filename为`x.jpg`即可
 
 由上可知，将二进制中的 + 改为 00 截断，即将 + 的二进制码 2b 改为 `00` .
 
-<img src="http://image.geoer.cn/20200218171415601_503298826.png" />
+<img src="https://image.geoer.cn/20200218171415601_503298826.png" />
 
 
 
 同样，访问的时候访问php文件：
 
-<img src="http://image.geoer.cn/20200218171807564_1778234073.png" />
+<img src="https://image.geoer.cn/20200218171807564_1778234073.png" />
 
 
 
@@ -698,11 +698,11 @@ burp只修改下面的filename为`x.jpg`即可
 
 **F2 意外发现：文件覆盖**
 
-<img src="http://image.geoer.cn/20200218172227317_2113414909.png" />
+<img src="https://image.geoer.cn/20200218172227317_2113414909.png" />
 
 由于名字可以不相同，即我们可以任意定义uploads旁边的 PHP 文件名，如果将文件名改为uploads中本身存在的文件，那么新的文件将会覆盖原来的文件。
 
-<img src="http://image.geoer.cn/20200218172321670_308115506.png" />
+<img src="https://image.geoer.cn/20200218172321670_308115506.png" />
 
 
 
@@ -714,9 +714,9 @@ burp只修改下面的filename为`x.jpg`即可
 
 
 
-<img src="http://image.geoer.cn/20200218172852998_939565232.png" />
+<img src="https://image.geoer.cn/20200218172852998_939565232.png" />
 
-<img src="http://image.geoer.cn/20200218172525227_655899960.png" />
+<img src="https://image.geoer.cn/20200218172525227_655899960.png" />
 
 这里进行过滤的是他的那个文件名，而不是我们上传文件最开始的文件名，所以要在他的文件名上做手脚
 
@@ -734,19 +734,19 @@ burp只修改下面的filename为`x.jpg`即可
 
  我们可以在save_path中加入php+00截断，由于是POST发送方式，因此我们需进行00截断。`111.php%00upload-19.jpg` （注意url decode）
 
-<img src="http://image.geoer.cn/20200218174147577_857047164.png" />
+<img src="https://image.geoer.cn/20200218174147577_857047164.png" />
 
 
 
 上传OK：
 
-<img src="http://image.geoer.cn/20200218174246606_1092693624.png" />
+<img src="https://image.geoer.cn/20200218174246606_1092693624.png" />
 
 
 
 去掉00后面内容，访问php，正常解析
 
-<img src="http://image.geoer.cn/20200218174323338_682125752.png" />
+<img src="https://image.geoer.cn/20200218174323338_682125752.png" />
 
 
 
@@ -776,7 +776,7 @@ Linux下：cat a.jpg b.php > shell.jpg
 
 
 
-<img src="http://image.geoer.cn/20200218175651617_999905544.png" />
+<img src="https://image.geoer.cn/20200218175651617_999905544.png" />
 
 
 
@@ -816,7 +816,7 @@ Linux下：cat a.jpg b.php > shell.jpg
 
 ## Pass - 15    getimagesize
 
-<img src="http://image.geoer.cn/20200218185841047_937742626.png" />
+<img src="https://image.geoer.cn/20200218185841047_937742626.png" />
 
 
 
@@ -824,7 +824,7 @@ Linux下：cat a.jpg b.php > shell.jpg
 
 索引2`$info[2]` 是图像的类型
 
-<img src="http://image.geoer.cn/20200218185758469_1439877358.png" />
+<img src="https://image.geoer.cn/20200218185758469_1439877358.png" />
 
 
 
@@ -861,13 +861,13 @@ if(stripos($types,$ext)>=0)  # 是否在白名单中
 
 ## Pass - 16   php_exif模块
 
-<img src="http://image.geoer.cn/20200218185919196_54375063.png" />
+<img src="https://image.geoer.cn/20200218185919196_54375063.png" />
 
 
 
 函数拓展：`exif_imagetype（）`
 
-<img src="http://image.geoer.cn/20200218190317887_1240325255.png" />
+<img src="https://image.geoer.cn/20200218190317887_1240325255.png" />
 
 
 
@@ -885,7 +885,7 @@ php_exif模块来判断文件类型
 
 2.配置文件在`php.ini`,分号是注释，可以直接解除注释启用,并将此行移动到extension=php_exif.dll之前，使之首先加载*。
 
-<img src="http://image.geoer.cn/20200218220405641_1769279545.png" />
+<img src="https://image.geoer.cn/20200218220405641_1769279545.png" />
 
 
 
@@ -963,7 +963,7 @@ png的二次渲染的绕过并不能像gif那样简单.
 
 
 
-<img src="http://image.geoer.cn/20200218222155590_1020797820.png" />
+<img src="https://image.geoer.cn/20200218222155590_1020797820.png" />
 
 
 
@@ -1021,7 +1021,7 @@ fclose($myfile);
 
 2.然后不断在浏览器访问我们的webshell，会有一瞬间的访问成功。（即当线程足够的时候 ，将可能会跳过某个步骤，而直接访问到我们的 webshell，新文件也会创建成功 )
 
-<img src="http://image.geoer.cn/20200218222719652_1510553817.png" />
+<img src="https://image.geoer.cn/20200218222719652_1510553817.png" />
 
 
 
@@ -1168,7 +1168,7 @@ if( $this->cls_rename_file == 1 ){  //是否用$im_path成功给$upload_file重�
 
 可以看到，burp进行多线程发包后，在浏览器一致访问上传文件的地址，一定会有那么一瞬间会访问到（这时，文件里新建webshell的代码执行了，新的后门建立成功了，我们就可以访问后门了）
 
-<img src="http://image.geoer.cn/20200218224226603_822814111.png" />
+<img src="https://image.geoer.cn/20200218224226603_822814111.png" />
 
 
 

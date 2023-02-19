@@ -38,7 +38,7 @@ docker-compose up -d
 ```
 http://192.168.0.100:8088/cluster
 ```
-![](http://image.geoer.cn/Hadoop.png)
+![](https://image.geoer.cn/Hadoop.png)
 
 
 **通过REST API命令执行**
@@ -72,7 +72,7 @@ requests.post(url, json=data)
 ```
 
 3.反弹shell成功
-![](http://image.geoer.cn/Hadoop_shell.png)
+![](https://image.geoer.cn/Hadoop_shell.png)
 
 
 #### 防御手段

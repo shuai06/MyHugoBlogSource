@@ -6,7 +6,7 @@ categories:
 tags:
 - 开源渗透框架
 - pocsuite
-cover: http://image.geoer.cn/pocsuite_logo.png
+cover: https://image.geoer.cn/pocsuite_logo.png
 abbrlink: 63001
 date: 2021-01-11 16:33:20
 keywords:
@@ -447,9 +447,9 @@ pocsuite -r flask_ssti_test.py -u http://192.168.0.105:8000  --attack
 
 
 
-![](http://image.geoer.cn/flask_ssti_verify.png)
+![](https://image.geoer.cn/flask_ssti_verify.png)
 
-![](http://image.geoer.cn/flask_ssti_attack.png)
+![](https://image.geoer.cn/flask_ssti_attack.png)
 
 
 
@@ -569,7 +569,7 @@ register_poc(FlaskPOCEXP)
 pocsuite -r flask_ssti_test.py -u http://192.168.0.105:8000  --verify  --command 'whoami'
 ```
 
-![](http://image.geoer.cn/pocsuite_flask_cmd.png)
+![](https://image.geoer.cn/pocsuite_flask_cmd.png)
 
 
 
