@@ -5,7 +5,7 @@ date: 2022-04-29 15:58:26
 tags: ["Matplotlib", "数据分析", "绘图"]
 categories:
 - Python
-cover: https://image.geoer.cn/matliib.png
+cover: https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/matliib.png
 top_img:
 description:
 ---
@@ -49,11 +49,11 @@ matplotlib是Python最常用的绘图库，提供了一整套十分适合交互�
 
 
 
-![](https://image.geoer.cn/matlib.png)
+![](https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/matlib.png)
 
 
 
-![](https://image.geoer.cn/matlib2.png)
+![](https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/matlib2.png)
 
 
 
@@ -136,7 +136,7 @@ ax4.plot(df2,alpha=0.5,linestyle='--',marker='.')
 #fig, ax = plt.subplots(num=10, clear=True)
 ```
 
-![](https://image.geoer.cn/subplot_1.png)
+![](https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/subplot_1.png)
 
 
 
@@ -157,7 +157,7 @@ ax1.plot(ts) #ax1进行画图
 fig.show()
 ```
 
-![](https://image.geoer.cn/subplot_2.png)
+![](https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/subplot_2.png)
 
 
 

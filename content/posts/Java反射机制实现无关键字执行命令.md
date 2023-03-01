@@ -5,7 +5,7 @@ date: 2022-01-12 17:08:39
 tags: ["Java反射"]
 categories:
 - JAVA安全
-cover: https://image.geoer.cn/img/image-20220112175328921.png
+cover: https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/img/image-20220112175328921.png
 top_img:
 description:
 ---
@@ -91,7 +91,7 @@ cmd.jsp
 
 能正常执行：
 
-![成功执行命令](https://image.geoer.cn/img/image-20220112172110896.png)
+![成功执行命令](https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/img/image-20220112172110896.png)
 
 
 
@@ -105,19 +105,19 @@ cmd.jsp
 
 且rt的值变成`java.lang.Runtime`
 
-![debug1](https://image.geoer.cn/img/image-20220112173734115.png)
+![debug1](https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/img/image-20220112173734115.png)
 
 
 
 继续往下走，第22行通过forName()方法来获取到了该class对象
 
-![debug2](https://image.geoer.cn/img/image-20220112173917446.png)
+![debug2](https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/img/image-20220112173917446.png)
 
 
 
 继续，下面第24行是通过反射获取类中方法getMethod的方式获取到`getRuntime()`方法
 
-![debug3](https://image.geoer.cn/img/image-20220112174841674.png)
+![debug3](https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/img/image-20220112174841674.png)
 
 然后第27行是获取Runtime类的`exec()`方法
 
@@ -125,7 +125,7 @@ cmd.jsp
 >
 > 只能返回一个特定的方法，第一个参数为方法名称，第二个为方法的参数对应Class的对象
 
-![debug4](https://image.geoer.cn/img/image-20220112174951580.png)
+![debug4](https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/img/image-20220112174951580.png)
 
 
 
@@ -137,11 +137,11 @@ cmd.jsp
 
 下面是通过getInputStream()使得页面回显的部分
 
-![debug5](https://image.geoer.cn/img/image-20220112175328921.png)
+![debug5](https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/img/image-20220112175328921.png)
 
 成功输出到页面
 
-![debug6](https://image.geoer.cn/img/image-20220112175444732.png)
+![debug6](https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/img/image-20220112175444732.png)
 
 
 
@@ -177,7 +177,7 @@ public class TestByte {
 
 
 
-![输出结果](https://image.geoer.cn/img/image-20220112180105592.png)
+![输出结果](https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/img/image-20220112180105592.png)
 
 
 

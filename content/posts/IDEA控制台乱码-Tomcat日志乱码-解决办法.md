@@ -5,7 +5,7 @@ date: 2022-01-12 15:32:51
 tags: ["Java", "日常小问题", "工具"]
 categories:
 - Java学习
-cover: https://image.geoer.cn/img/image-20220112153430975.png
+cover: https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/img/image-20220112153430975.png
 top_img:
 description:
 ---
@@ -14,7 +14,7 @@ description:
 
 1.打开 `File->Setting->Editor->File Encodings`，将`Global Encoding`、`Project Encoding`、`Default encodeing for properties files`这三项都设置成UTF-8，然后点击OK。如下图：
 
-![image-20220112153430975](https://image.geoer.cn/img/image-20220112153430975.png)
+![image-20220112153430975](https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/img/image-20220112153430975.png)
 
 
 
@@ -28,7 +28,7 @@ description:
 -Dfile.encoding=UTF-8
 ```
 
-![image-20220112153623173](https://image.geoer.cn/img/image-20220112153623173.png)
+![image-20220112153623173](https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/img/image-20220112153623173.png)
 
 
 
@@ -36,7 +36,7 @@ description:
 
 将`vm option`为` -Dfile.encoding=utf-8`，点击OK
 
-![image-20220112153728537](https://image.geoer.cn/img/image-20220112153728537.png)
+![image-20220112153728537](https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/img/image-20220112153728537.png)
 
 
 

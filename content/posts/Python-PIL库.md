@@ -6,7 +6,7 @@ date: 2022-07-17 9:46:47
 tags: ["PIL", "Pillow", "图像处理"]
 categories:
 - Python
-cover: https://image.geoer.cn/20220717120507.png
+cover: https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/20220717120507.png
 top_img:
 description:
 ---
@@ -67,7 +67,7 @@ print(im.mode)  # 查看图片的模式
 
 
 ```
-![20220717102300](https://image.geoer.cn/20220717102300.png)
+![20220717102300](https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/20220717102300.png)
 
 
 #### 创建图像
@@ -262,7 +262,7 @@ im.save(fp)  # 保存图片
 ```
 
 图像模式：
-![20220717102735](https://image.geoer.cn/20220717102735.png)
+![20220717102735](https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/20220717102735.png)
 
 **其中最常用的有三种：**
 **1.RGB模式：**
@@ -299,7 +299,7 @@ im2 = im.convert('1')
 im2.show()
 
 ```
-![20220717103442](https://image.geoer.cn/20220717103442.png)
+![20220717103442](https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/20220717103442.png)
 
 
 
@@ -317,7 +317,7 @@ im2 = im.convert('L')
 im2.show()
 
 ```
-![20220717103640](https://image.geoer.cn/20220717103640.png)
+![20220717103640](https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/20220717103640.png)
 
 
 
@@ -354,7 +354,7 @@ b = im.resize((100, 200))
 b.show()
 
 ```
-![20220717111201](https://image.geoer.cn/20220717111201.png)
+![20220717111201](https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/20220717111201.png)
 
 
 
@@ -421,7 +421,7 @@ b.show()
 
 
 ```
-![20220717111724](https://image.geoer.cn/20220717111724.png)
+![20220717111724](https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/20220717111724.png)
 
 
 
@@ -579,7 +579,7 @@ Pillow 通过`ImageFilter`类达到图像降噪的目的，该类中集成了不
 对图像添加一些滤镜效果
 
 图像降噪滤波器：
-![](https://image.geoer.cn/20220717113217.png)
+![](https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/20220717113217.png)
 
 语法：`im_ft = im.filter(filt_mode)  # 返回图像对象，里面传入滤波器`
 
@@ -593,7 +593,7 @@ im_ft = im.filter(ImageFilter.EMBOSS)  # 添加浮雕滤波器
 im_ft.show()
 
 ```
-![](https://image.geoer.cn/20220717113338.png)
+![](https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/20220717113338.png)
 
 
 实例：轮廓滤波
@@ -605,7 +605,7 @@ im_ft = im.filter(ImageFilter.EMBOSS)  # 添加浮雕滤波器
 im_ft.show()
 
 ```
-![](https://image.geoer.cn/20220717124056.png)
+![](https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/20220717124056.png)
 
 
 
@@ -627,12 +627,12 @@ img.show()
 filter_img = img.filter(ImageFilter.MedianFilter)
 filter_img.show()
 ```
-![20220717113622](https://image.geoer.cn/20220717113622.png)
+![20220717113622](https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/20220717113622.png)
 
 
 #### 图像增强
 增强（或减弱）图像的亮度、对比度、色度和锐度
-![](https://image.geoer.cn/20220717114111.png)
+![](https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/20220717114111.png)
 
 1、ImageEnhance.Brightness：调整图像的亮度
 ```python
@@ -748,7 +748,7 @@ def image_compose():
 image_compose()
 
 ```
-![](https://image.geoer.cn/20220717120507.png)
+![](https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/20220717120507.png)
 
 
 

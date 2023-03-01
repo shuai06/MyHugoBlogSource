@@ -5,7 +5,7 @@ date: 2022-04-29 9:57:15
 tags: ["pandas", "数据分析", "机器学习"]
 categories:
 - Python
-cover: https://image.geoer.cn/pandas_logo.png
+cover: https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/pandas_logo.png
 top_img:
 description:
 ---
@@ -92,7 +92,7 @@ series是一种**一维**数据结构，每一个元素都带有一个索引，�
 
 series结构名称：|索引列|数据列
 
-![](https://image.geoer.cn/pandas_series.png)
+![](https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/pandas_series.png)
 
 
 
@@ -442,7 +442,7 @@ DataFrame 的每一行数据都可以看成一个 Series 结构，只不过，Da
 
 dataframe结构名称：
 
-![](https://image.geoer.cn/pandas_dataframe.png)
+![](https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/pandas_dataframe.png)
 
 
 
@@ -988,7 +988,7 @@ print(df)
 """
 ```
 
-![](https://image.geoer.cn/pandas_img1.png)
+![](https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/pandas_img1.png)
 
 如果行索引中包含日期，Pandas 会自动调用 `gct().autofmt_xdate() `来格式化 x 轴。
 
@@ -1017,7 +1017,7 @@ df = pd.DataFrame(np.random.rand(10,4),columns=['a','b','c','d'])
 df.plot.bar()
 ```
 
-![](https://image.geoer.cn/pandas_img2.png)
+![](https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/pandas_img2.png)
 
 ```python
 # 通过设置参数stacked=True可以生成柱状堆叠图，示例如下：
@@ -1029,7 +1029,7 @@ df.plot(kind="bar",stacked=True)
 #或者使用df.plot.bar(stacked="True")
 ```
 
-![](https://image.geoer.cn/pandas_img3.png)
+![](https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/pandas_img3.png)
 
 ```python
 # 如果要绘制水平柱状图，您可以使用以下方法：
@@ -1041,7 +1041,7 @@ print(df)
 df.plot.barh(stacked=True)
 ```
 
-![](https://image.geoer.cn/pandas_img4.png)
+![](https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/pandas_img4.png)
 
 
 
@@ -1060,7 +1060,7 @@ print(df)
 df.plot.hist(bins=15)
 ```
 
-![](https://image.geoer.cn/pm5.png)
+![](https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/pm5.png)
 
 
 
@@ -1075,7 +1075,7 @@ np.random.randn(100)-2,'D':np.random.randn(100)+3},columns=['A', 'B', 'C','D'])
 df.diff().hist(color="r",alpha=0.5,bins=15
 ```
 
-![](https://image.geoer.cn/pm6.png)
+![](https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/pm6.png)
 
 
 
@@ -1091,7 +1091,7 @@ df = pd.DataFrame(np.random.rand(10, 4), columns=['A', 'B', 'C', 'D'])
 df.plot.box()
 ```
 
-![](https://image.geoer.cn/pm7.png)
+![](https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/pm7.png)
 
 
 
@@ -1108,7 +1108,7 @@ df = pd.DataFrame(np.random.rand(5, 4), columns=['a', 'b', 'c', 'd'])
 df.plot.area()
 ```
 
-![](https://image.geoer.cn/pm8.png)
+![](https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/pm8.png)
 
 
 
@@ -1125,7 +1125,7 @@ df = pd.DataFrame(np.random.rand(30, 4), columns=['a', 'b', 'c', 'd'])
 df.plot.scatter(x='a',y='b')
 ```
 
-![](https://image.geoer.cn/pm9.png)
+![](https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/pm9.png)
 
 **饼图**
 
@@ -1140,7 +1140,7 @@ df.plot.pie(subplots=True)
 
 
 
-![](https://image.geoer.cn/pm10.png)
+![](https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/pm10.png)
 
 
 
@@ -1459,7 +1459,7 @@ print(data)
 
 ### 区别
 
-![](https://image.geoer.cn/np_pd.png)
+![](https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/np_pd.png)
 
 
 

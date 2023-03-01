@@ -8,7 +8,7 @@ tags:
 date: 2020-04-17 20:10:37
 keywords:
 description:
-cover: https://image.geoer.cn/timg.jpg
+cover: https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/timg.jpg
 ---
 
   

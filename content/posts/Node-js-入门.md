@@ -139,7 +139,7 @@ node index.js
 
 ## 二. 模块(包)与CommonJS
 
-![](https://image.geoer.cn/commonjs.png)
+![](https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/commonjs.png)
 
 #### Node.js三种模块
 
@@ -1308,7 +1308,7 @@ async.waterfall([
 
 ## 六. Socket
 
-<img src="https://image.geoer.cn/socket.png"></img>
+<img src="https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/socket.png"></img>
 
 
 
@@ -1734,9 +1734,9 @@ mongo -u admin -p admin111 --authenticationDatabase admin
 
 
 
-![](https://image.geoer.cn/socket.png)
+![](https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/socket.png)
 
-![](https://image.geoer.cn/mysql2.png)
+![](https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/mysql2.png)
 
 **MongoDB集合**
 
@@ -1752,7 +1752,7 @@ mongo -u admin -p admin111 --authenticationDatabase admin
 
 **MongoDB数据类型**
 
-![](https://image.geoer.cn/type.png)
+![](https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/type.png)
 
 
 
@@ -1824,7 +1824,7 @@ db.dropDatabase()
 
 ....写了半天，忘了保存，算了，放图片吧....
 
-<img src="https://image.geoer.cn/collec.png"></img>
+<img src="https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/collec.png"></img>
 
 
 
@@ -1834,7 +1834,7 @@ db.dropDatabase()
 
 
 
-<img src="https://image.geoer.cn/collec.png"></img>
+<img src="https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/collec.png"></img>
 
 
 
@@ -1850,11 +1850,11 @@ db.user.deleteMany({'name':'xps'})
 
 
 
-<img src="https://image.geoer.cn/q1.png"></img>
+<img src="https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/q1.png"></img>
 
-<img src="https://image.geoer.cn/q2.png"></img>
+<img src="https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/q2.png"></img>
 
-<img src="https://image.geoer.cn/q3.png"></img>
+<img src="https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/q3.png"></img>
 
 
 

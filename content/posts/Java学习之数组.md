@@ -6,7 +6,7 @@ categories:
 tags:
 - Java
 - 数组
-cover: https://image.geoer.cn/java-array.png
+cover: https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/java-array.png
 abbrlink: 63254
 date: 2021-01-15 15:49:32
 keywords:
@@ -103,13 +103,13 @@ public class ArrayTest {
 
 **首先，在jvm中，内存的简化结构如下:**
 
-![](https://image.geoer.cn/%E7%AE%80%E5%8C%96%E5%86%85%E5%AD%98%E7%BB%93%E6%9E%84.jpg)
+![](https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/%E7%AE%80%E5%8C%96%E5%86%85%E5%AD%98%E7%BB%93%E6%9E%84.jpg)
 
 
 
 **一维数组的内存解析如下：**
 
-![](https://image.geoer.cn/%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84%E7%9A%84%E5%86%85%E5%AD%98%E8%A7%A3%E6%9E%90.png)
+![](https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/%E4%B8%80%E7%BB%B4%E6%95%B0%E7%BB%84%E7%9A%84%E5%86%85%E5%AD%98%E8%A7%A3%E6%9E%90.png)
 
 
 
@@ -202,9 +202,9 @@ public class DoubleArrayTest {
 
 #### 二维数组的内存解析
 
-![](https://image.geoer.cn/%E4%BA%8C%E7%BB%B4%E6%95%B0%E7%BB%84%E5%86%85%E5%AD%98%E8%A7%A3%E6%9E%901.jpg)
+![](https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/%E4%BA%8C%E7%BB%B4%E6%95%B0%E7%BB%84%E5%86%85%E5%AD%98%E8%A7%A3%E6%9E%901.jpg)
 
-![](https://image.geoer.cn/%E4%BA%8C%E7%BB%B4%E6%95%B0%E7%BB%84%E5%86%85%E5%AD%98%E8%A7%A3%E6%9E%902.jpg)
+![](https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/%E4%BA%8C%E7%BB%B4%E6%95%B0%E7%BB%84%E5%86%85%E5%AD%98%E8%A7%A3%E6%9E%902.jpg)
 
 
 

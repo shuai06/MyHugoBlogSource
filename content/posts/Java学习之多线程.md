@@ -3,7 +3,7 @@ title: Java学习之多线程
 categories:
 - Java学习
 tags: ["Java", "多线程"]
-cover: https://image.geoer.cn/%E5%A4%9A%E7%BA%BF%E7%A8%8B_%E7%94%9F%E4%BA%A7%E8%80%85%E6%B6%88%E8%B4%B9%E8%80%85.jpg
+cover: https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/%E5%A4%9A%E7%BA%BF%E7%A8%8B_%E7%94%9F%E4%BA%A7%E8%80%85%E6%B6%88%E8%B4%B9%E8%80%85.jpg
 date: 2021-01-17 15:53:26
 
 ---
@@ -12,13 +12,13 @@ date: 2021-01-17 15:53:26
 
 ### 基本概念
 
-![image-20210116145142703](https://image.geoer.cn/%E5%A4%9A%E7%BA%BF%E7%A8%8B_%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5.png)
+![image-20210116145142703](https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/%E5%A4%9A%E7%BA%BF%E7%A8%8B_%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5.png)
 
 
 
 **JVM内存结构：**
 
-![image-20210116145803616](https://image.geoer.cn/%E5%A4%9A%E7%BA%BF%E7%A8%8B_JVM.png)
+![image-20210116145803616](https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/%E5%A4%9A%E7%BA%BF%E7%A8%8B_JVM.png)
 
 
 
@@ -419,7 +419,7 @@ class Windows2 implements Runnable{
 
 
 
-![](https://image.geoer.cn/java%E7%BA%BF%E7%A8%8B%E4%B8%AD%E5%B8%B8%E7%94%A8%E6%96%B9%E6%B3%95.jpg)
+![](https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/java%E7%BA%BF%E7%A8%8B%E4%B8%AD%E5%B8%B8%E7%94%A8%E6%96%B9%E6%B3%95.jpg)
 
 ```java
 package cn.xpshuai.java1;
@@ -579,7 +579,7 @@ Java垃圾回收就是一个典型的守护线程。
 
 > 这个生命周期流程图需要记住！！！
 
-![image-20210117085742806](https://image.geoer.cn/%E7%BA%BF%E7%A8%8B%E7%9A%84%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F.jpg)
+![image-20210117085742806](https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/%E7%BA%BF%E7%A8%8B%E7%9A%84%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F.jpg)
 
 
 
@@ -1025,7 +1025,7 @@ public class LuckTest {
 
 **Lock锁方式解决线程安全问题：**
 
-![image-20210117110948119](https://image.geoer.cn/Lock%E9%94%81.png)
+![image-20210117110948119](https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/Lock%E9%94%81.png)
 
 ```java
 package cn.xpshuai.java2;
@@ -1479,7 +1479,7 @@ class NumThread implements Callable{
 - keepAliveTime: 线程没有任务时最多保持多长时间后会终止
 - ... ...
 
-![image-20210117153400642](https://image.geoer.cn/java_ExecutorService.png)
+![image-20210117153400642](https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/java_ExecutorService.png)
 
 
 

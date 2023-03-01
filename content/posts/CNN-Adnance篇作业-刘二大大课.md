@@ -15,7 +15,7 @@ description:
 
 阅读论文《Identity Mappings in Deep Residual Networks》并实现网络（使用手写数字辨识数据集做测试）
 
-![](https://image.geoer.cn/20220820094008.png)
+![](https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/20220820094008.png)
 
 constant scaling:
 ```python
@@ -150,7 +150,7 @@ if __name__ == "__main__":
 ```
 
 
-![](https://image.geoer.cn/20220820094029.png)
+![](https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/20220820094029.png)
 
 conv shortcut:
 ```python

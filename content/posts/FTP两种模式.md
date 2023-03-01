@@ -13,7 +13,7 @@ keywords:
 - 文件传输协议
 - FTP主动模式
 - FTP被动模式
-img: 'https://image.geoer.cn/ftp.png'
+img: 'https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/ftp.png'
 abbrlink: 57750
 date: 2020-10-13 13:13:12
 summary:
@@ -46,7 +46,7 @@ password:
 
 
 
-<img src="https://image.geoer.cn/%E4%B8%BB%E5%8A%A8%E6%A8%A1%E5%BC%8Fftp.jpg" alt="盗张图"></img>
+<img src="https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/%E4%B8%BB%E5%8A%A8%E6%A8%A1%E5%BC%8Fftp.jpg" alt="盗张图"></img>
 
 
 
@@ -68,4 +68,4 @@ password:
 
 
 
-<img src="https://image.geoer.cn/%E8%A2%AB%E5%8A%A8%E6%A8%A1%E5%BC%8Fftp.jpg" alt="盗张图"></img>
+<img src="https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/%E8%A2%AB%E5%8A%A8%E6%A8%A1%E5%BC%8Fftp.jpg" alt="盗张图"></img>

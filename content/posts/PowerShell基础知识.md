@@ -9,10 +9,10 @@ abbrlink: 21874
 date: 2020-03-19 18:35:06
 keywords: 
 description:
-cover: https://image.geoer.cn/powershell.jpg
+cover: https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/powershell.jpg
 ---
 
-<img src="https://image.geoer.cn/powershell.jpg"></img>
+<img src="https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/powershell.jpg"></img>
 
 <!-- more -->
 

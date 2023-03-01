@@ -10,7 +10,7 @@ abbrlink: 37031
 date: 2020-08-17 22:11:48
 keywords:
 summary:
-cover: https://image.geoer.cn/rce11.jpg
+cover: https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/rce11.jpg
 password:
 ---
 
@@ -24,7 +24,7 @@ password:
 
 #### EDR的界面
 
-<img src="https://image.geoer.cn/rce11.jpg"></img>
+<img src="https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/rce11.jpg"></img>
 
 
 
@@ -36,7 +36,7 @@ password:
 https://xxx.com:xxx/tool/log/c.php?strip_slashes=system&host=id
 ```
 
-<img src="https://image.geoer.cn/rce22.jpg"></img>
+<img src="https://geoer666-1257264766.cos.ap-beijing.myqcloud.com/rce22.jpg"></img>
 
 
 
